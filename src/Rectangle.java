@@ -1,6 +1,7 @@
 
 public class Rectangle {
 
+	//class variables
 	int width;
 	int height;
 	
@@ -9,10 +10,12 @@ public class Rectangle {
 		this.height = height;
 	}
 
+	//return the area of the rectangle
 	public int area() {
 		return width * height;
 	}
 
+	//return the perimeter of the rectangle
 	public int perimeter() {
 		return (width + height) * 2;
 	}
